@@ -1,0 +1,8 @@
+<launch>
+
+    <arg name="position"/>
+
+    <node pkg="skku_robotics_homework" type="homework.py" name="homework" output="screen">
+        <param name="position" value="$(arg position)"/>
+    </node>
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+    <arg name="goal_joint"/>
+
+    <node pkg="skku_robotics_homework" type="controller.py" name="controller" output="screen">
+        <param name="goal_joint" value="$(arg goal_joint)" />
+    </node>
+</launch>
