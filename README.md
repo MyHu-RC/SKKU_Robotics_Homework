@@ -1,5 +1,7 @@
 # SKKU ROBOTICS HOMEWORK
+license - apache 2.0 License
 
+support level: community
 ## Environment
 
     ubuntu 20.04
