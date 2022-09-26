@@ -7,6 +7,12 @@ import numpy as np
 
 """-------------------------"""
 
+""" Write the function you need """
+
+
+
+"""-----------------------------"""
+
 def inversKinemaics(x,y,z,roll,pitch,yaw):
     d1,d2,d3,d4,d5,d6 = 0.0,0.0,0.0,0.0,0.0,0.0
     """ Write the inversKinemaics function """
